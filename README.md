@@ -31,3 +31,7 @@ Retail Store is a responsive e-commerce web application built with React. It all
 1. Clone the repository.
 2. Install dependencies using npm install.
 3. Start the development server using npm run dev.
+
+## Live Demo
+
+https://retail-store-b6fh.vercel.app/
