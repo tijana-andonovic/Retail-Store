@@ -1,0 +1,46 @@
+
+
+.prod img {
+    height: 20rem;
+}
+
+.hero{
+    background-image: url("./hero.png");
+    background-size: cover;
+    background-position: top;
+    height: 50em;
+    width: 100%;
+}
+
+.filters{
+    
+    padding: 30px;
+    gap: 200px;
+}
+
+.imag{
+    height: 25rem;
+    margin-bottom: 20px;
+}
+
+.promo{
+    height: 35rem;
+    width: 100%;
+    background-image: url("./promo-baner.png");
+    background-size: cover;
+    background-position: center;
+}
+.banerText
+{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 20px;
+}
+.btn{
+    background-color: #e7781b !important;
+    border-color: #e7781b !important;
+}
+.btn:hover{
+    background-color: #9f5820 !important;
+    border-color: #9f5820 !important;
+}
