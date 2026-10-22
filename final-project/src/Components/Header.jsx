@@ -23,7 +23,7 @@ const Header = () => {
                 className="container-fluid row justify-content-center header  navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand  p-3   rounded sticky-top z-1">
                 <div
                     className="navbar-brand col-lg-1 col-md-5 col-5 justify-content-md-end order-lg-1  order-3 d-flex justify-content-center  ">
-                    <img src="/logo2.ico" alt="Logo" className="d-inline-block logo" />
+                    <img src="./images/logo2.ico" alt="Logo" className="d-inline-block logo" />
                 </div>
 
                 <div className="container  col-lg-5 flex-shrink-2  rounded-5 order-2  search d-none d-lg-flex  ">

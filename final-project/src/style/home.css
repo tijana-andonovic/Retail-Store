@@ -5,7 +5,7 @@
 }
 
 .hero{
-    background-image: url("./hero.png");
+    background-image: url("./images/hero.png");
     background-size: cover;
     background-position: top;
     height: 50em;
@@ -26,7 +26,7 @@
 .promo{
     height: 35rem;
     width: 100%;
-    background-image: url("./promo-baner.png");
+    background-image: url("./images/promo-baner.png");
     background-size: cover;
     background-position: center;
 }

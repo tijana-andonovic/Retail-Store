@@ -22,17 +22,17 @@ const Main = ({ children }) => {
             <h1 className=" m-5 p-2">New Arrivals</h1>
             <div className="container-fluid row filters justify-content-center  ">
                 <div className=" col-12 col-md-4 col-sm-12 col-lg-2 d-flex flex-column align-items-center justify-content-start">
-                    <img src="/woman.png" className="imag" />
+                    <img src="./images/woman.png" className="imag" />
                     <button className="btn " id="btnWomen"><Link to="/products?category=women" className="text-decoration-none text-dark">Women</Link></button>
 
                 </div>
                 <div className=" col-12 col-md-4 col-sm-12 col-lg-2 d-flex flex-column align-items-center justify-content-start">
-                    <img src="/kids.png" className="imag" />
+                    <img src="./images/kids.png" className="imag" />
                     <button className="btn " id="btnKids"><Link to="/products?category=kids" className="text-decoration-none text-dark">Kids</Link></button>
 
                 </div>
                 <div className=" col-12 col-md-4 col-sm-12 col-lg-2 d-flex flex-column align-items-center justify-content-start">
-                    <img src="/man.png" className="imag" />
+                    <img src="./images/man.png" className="imag" />
                     <button className="btn " id="btnMen"><Link to="/products?category=men" className="text-decoration-none text-dark">Men</Link></button>
 
                 </div>
