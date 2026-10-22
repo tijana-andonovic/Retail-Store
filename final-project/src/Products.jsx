@@ -20,7 +20,7 @@ const ShopProduct = ({ product, addToCart }) => {
     return (
         <div className="card prod shadow p-3 m-3 bg-body-tertiary rounded border-0">
             <Link to={`/products/${product.id}`} className="text-decoration-none">
-                <img src={`/${product.id}.png`} className="card-img-top rounded" alt={product.title} />
+                <img src={`/images/${product.id}.png`} className="card-img-top rounded" alt={product.title} />
             </Link>
             <div className="card-body">
                 <h5 className="card-title fs-6 h-25">{product.title}</h5>

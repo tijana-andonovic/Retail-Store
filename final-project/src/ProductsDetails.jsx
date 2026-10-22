@@ -76,7 +76,13 @@ const ProductsDetails = () => {
 
                 <div className="container  poduct-box  ">
                     <img className="img-fluid rounded-4 "
-                        src={`/${product.id}.png`}
+                        src={`/images/${product.id}.png`}
+                        alt={product.title}/>
+
+                </div>
+                <div className="container  poduct-box ">
+                    <img className="img-fluid rounded-4 "
+                        src={`/images/${product.id}.png`}
                         alt={product.title}/>
 
                 </div>
@@ -88,13 +94,7 @@ const ProductsDetails = () => {
                 </div>
                 <div className="container  poduct-box ">
                     <img className="img-fluid rounded-4 "
-                        src={`/${product.id}.png`}
-                        alt={product.title}/>
-
-                </div>
-                <div className="container  poduct-box ">
-                    <img className="img-fluid rounded-4 "
-                        src={`/${product.id}.png`}
+                        src={`/images/${product.id}.png`}
                         alt={product.title}/>
 
                 </div>
@@ -102,7 +102,7 @@ const ProductsDetails = () => {
             <div className="container  col-lg-4 col-md-12   order-2 order-md-1 proudct-video  m-lg-0 ">
                 
                 <img className="rounded-4 img-fluid offset-md-2 offset-1  offset-lg-0"
-                        src={`/${product.id}.png`}
+                        src={`/images/${product.id}.png`}
                         alt={product.title}/>
             </div>
             <div className="container  col-lg-4 col-md-12  order-3  offset-1  ">
