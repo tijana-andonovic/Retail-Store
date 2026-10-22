@@ -92,7 +92,7 @@ const PaymentForm = ({ onSubmit }) => {
                             <div className="col-6 p-1 mb-3 ">
                                 <div type="button" className=" border border-primary rounded w-100 text-center"><img
                                     className="img-fluid rounded btn-pay"
-                                    src="./images/paypal.png" alt="paypal" />
+                                    src="/images/paypal.png" alt="paypal" />
                                 </div>
                             </div>
                             <div className="col-6 p-1 mb-3">

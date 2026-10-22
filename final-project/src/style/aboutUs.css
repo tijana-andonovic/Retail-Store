@@ -9,7 +9,7 @@
     margin-bottom: 20px;
 }
 .aboutUsContent{
-    background-image: url("./AboutUs.png");
+    background-image: url("/images/AboutUs.png");
     background-size: cover;
     background-position: top;
     height: 50em;
